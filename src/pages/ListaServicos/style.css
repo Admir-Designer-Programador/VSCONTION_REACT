@@ -168,7 +168,7 @@ header nav a {
 
 
 /* MAIN */
-main {
+main#ListaServicos {
     background-image:
         linear-gradient(180deg, #060821 0%, #06082120 25%, #0608218f 80%, #060821 100%),
         url("../../assets/img/background_login.png");
@@ -205,13 +205,13 @@ main {
     color: var(--branco);
 }
 
-h1 {
+h1#ListaServicos {
     font-family: var(--font1);
     font-size: 50px;
     text-align: center;
 }
 
-hr {
+hr#ListaServicos {
     margin: 20px auto;
     width: 80%;
     height: 4px;

@@ -1,5 +1,9 @@
 import React from 'react'
+import ListaServicos from './pages/ListaServicos'
 import ReactDOM from 'react-dom/client'
+import { Route, Routes, BrowserRouter } from "react-router-dom"
+
+
 // import App from './App'
 import './index.css'
 import Home from './pages/Home'
@@ -9,9 +13,15 @@ import Footer from './components/Footer'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    {/* <ListaServicos /> */}
+    <BrowserRouter>
     <Header />
-    <Home />
+    <Routes>
+      <Route path='/' element={ <Home/> } />
+      <Route path='ListaServicos' element={ <ListaServicos/> } />
+
+    </Routes>
     <Footer/>
+
+    </BrowserRouter>
   </React.StrictMode>
 )
