@@ -10,6 +10,7 @@ import Home from './pages/Home'
 // import ListaServicos from './pages/ListaServicos'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import ListaDevs from './pages/ListaDevs'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -17,9 +18,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <Header />
     <Routes>
       <Route path='/' element={ <Home/> } />
-      <Route path='ListaServicos' element={ <ListaServicos/> } />
-
+      <Route path='Listadevs' element={ <ListaDevs/> } />
     </Routes>
+    
     <Footer/>
 
     </BrowserRouter>
