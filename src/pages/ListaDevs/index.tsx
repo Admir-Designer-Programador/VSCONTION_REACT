@@ -31,15 +31,15 @@ export default function ListaDevs(){
       <div className="wrapper_lista">
         <ul>
           <li>
-            <CardDev= "Irineu" email="irineu@gmail.com" />
+            <CardDev nome = "Irineu" email="irineu@gmail.com" />
           </li>
           <li>
             <div className="dev">
               <div className="grupo_contato">
-                <img src={"props.imagem"} alt="" />
+                <img src="https://github.com/JessicaSanto.png" alt="" />
                 <div className="contato_dev">
-                  <h3>{props.nome}</h3>
-                  <p>{props.email}</p>
+                  <h3>Jessica Franzon</h3>
+                  <p>jessica@email.com</p>
                 </div>
               </div>
               <div className="techs">

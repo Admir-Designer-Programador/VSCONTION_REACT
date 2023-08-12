@@ -9,7 +9,7 @@ export default function CardDev (props: any) {
           <img src="https://github.com/Thiago-Nascimento.png" alt="" />
           <div className="contato_dev">
             <h3>T{ props.nome }</h3>
-            <p>thiago@email.com</p>
+            <p>{props.email}</p>
           </div>
         </div>
         <div className="techs">
